@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#colorBar {
+  background-color: #c5c6c7;
+  padding: 4px;
+  position: fixed;
+  bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
